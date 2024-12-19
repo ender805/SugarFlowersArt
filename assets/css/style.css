@@ -1,0 +1,85 @@
+
+/* General adjustment header!  */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+        
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url(/assets/images/background1.jpg) no-repeat center / cover;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Style the top navigation bar */
+
+.topnav {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.452);
+  padding: 10px 50px; 
+
+}
+      
+.topnav .logo {
+  color: #060505; 
+  text-decoration: none;
+  
+  
+}
+.topnav .nav-links a {
+  color: #060505;
+  text-align: center;
+  padding: 14px 16px;
+  display: inline-block;
+  text-decoration: none;
+}
+      
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  border-radius:50%;
+  
+
+}
+.topnav .circle-image{
+ 
+  border-radius:50%;
+/* doesn't work as you want think about it!  */
+}  
+
+
+/* search box */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  
+}
+
+
+/* Style the content */
+.content {
+  padding: 10px;
+  height:100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the footer */
+.footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.452);
+  color: rgb(9, 6, 6);
+  padding: 10px;
+}
+
+
+
